@@ -48,9 +48,9 @@
 //  console.log( getCount("Abdusamad"));
 
 function isPalindrom(x){
-    let res = ''
+        let res = ''
     for(let i = 0; i < x.length; i++){
-        res = x[i] += res
+        res = x[i] + res
     }
     if(res === x){
         return true
